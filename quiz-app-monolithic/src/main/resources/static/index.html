@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" th:href="@{/style.css}"> <!-- Use Thymeleaf to link CSS -->
+</head>
+<body>
+<h1>Welcome to the Quiz App</h1>
+<a th:href="@{/quiz/create}" id="quizButton">
+    <button>Take Quiz</button>
+</a>
+<a th:href="@{/question/all}" id="questionsButton">
+    <button>View Questions</button>
+</a>
+<script th:src="@{/script.js}"></script> <!-- Use Thymeleaf to link JavaScript -->
+</body>
+</html>

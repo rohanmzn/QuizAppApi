@@ -1,0 +1,165 @@
+// 20240907111223
+// http://localhost:8080/questions/allQuestions
+
+[
+  {
+    "id": 1,
+    "category": "Java",
+    "difficultyLevel": "Medium",
+    "questionTitle": "What is the purpose of the `finally` block in Java?",
+    "option1": "It's always executed, regardless of exceptions.",
+    "option2": "It's only executed if an exception occurs.",
+    "option3": "It's used for resource management.",
+    "rightAnswer": "It's always executed, regardless of exceptions. and It's used for resource management."
+  },
+  {
+    "id": 2,
+    "category": "Java",
+    "difficultyLevel": "Easy",
+    "questionTitle": "Which data type is used to represent a single character in Java?",
+    "option1": "int",
+    "option2": "char",
+    "option3": "String",
+    "rightAnswer": "char"
+  },
+  {
+    "id": 3,
+    "category": "Java",
+    "difficultyLevel": "Hard",
+    "questionTitle": "What is the difference between a `static` method and a non-`static` method?",
+    "option1": "static methods can be called without creating an object.",
+    "option2": "static methods cannot access instance variables.",
+    "option3": "static methods cannot be overridden.",
+    "rightAnswer": "static methods can be called without creating an object. static methods cannot access instance variables. static methods cannot be overridden."
+  },
+  {
+    "id": 4,
+    "category": "Python",
+    "difficultyLevel": "Easy",
+    "questionTitle": "What is the primary purpose of the `if` statement in Python?",
+    "option1": "To declare a variable",
+    "option2": "To define a function",
+    "option3": "To execute code conditionally",
+    "rightAnswer": "To execute code conditionally"
+  },
+  {
+    "id": 5,
+    "category": "Python",
+    "difficultyLevel": "Medium",
+    "questionTitle": "How do you create a list in Python?",
+    "option1": "Using square brackets `[]`",
+    "option2": "Using curly braces `{}`",
+    "option3": "Using parentheses `()`",
+    "rightAnswer": "Using square brackets `[]`"
+  },
+  {
+    "id": 6,
+    "category": "Python",
+    "difficultyLevel": "Hard",
+    "questionTitle": "What is the difference between a shallow copy and a deep copy of a list in Python?",
+    "option1": "A shallow copy creates a new list with the same elements.",
+    "option2": "A deep copy creates a new list with new copies of the elements.",
+    "option3": "A shallow copy is faster than a deep copy.",
+    "rightAnswer": "A shallow copy creates a new list with the same elements. A deep copy creates a new list with new copies of the elements."
+  },
+  {
+    "id": 7,
+    "category": "JavaScript",
+    "difficultyLevel": "Easy",
+    "questionTitle": "What is the primary purpose of the `document.getElementById()` method in JavaScript?",
+    "option1": "To create a new HTML element",
+    "option2": "To get an element by its ID",
+    "option3": "To set the style of an element",
+    "rightAnswer": "To get an element by its ID"
+  },
+  {
+    "id": 8,
+    "category": "JavaScript",
+    "difficultyLevel": "Medium",
+    "questionTitle": "What is the difference between `==` and `===` in JavaScript?",
+    "option1": "`==` checks for equality of values, while `===` checks for both value and type equality.",
+    "option2": "`==` is always stricter than `===`.",
+    "option3": "`===` is always stricter than `==`.",
+    "rightAnswer": "`==` checks for equality of values, while `===` checks for both value and type equality."
+  },
+  {
+    "id": 9,
+    "category": "JavaScript",
+    "difficultyLevel": "Hard",
+    "questionTitle": "What is the purpose of the `this` keyword in JavaScript?",
+    "option1": "To refer to the current object",
+    "option2": "To define a variable",
+    "option3": "To call a function",
+    "rightAnswer": "To refer to the current object"
+  },
+  {
+    "id": 10,
+    "category": "C",
+    "difficultyLevel": "Easy",
+    "questionTitle": "Which function is used to print formatted output to the console in C?",
+    "option1": "printf",
+    "option2": "scanf",
+    "option3": "puts",
+    "rightAnswer": "printf"
+  },
+  {
+    "id": 11,
+    "category": "C",
+    "difficultyLevel": "Medium",
+    "questionTitle": "Which data type is used to store a single character in C?",
+    "option1": "int",
+    "option2": "float",
+    "option3": "char",
+    "rightAnswer": "char"
+  },
+  {
+    "id": 12,
+    "category": "C",
+    "difficultyLevel": "Hard",
+    "questionTitle": "What is the purpose of a pointer in C?",
+    "option1": "pointer",
+    "option2": "array",
+    "option3": "struct",
+    "rightAnswer": "pointer"
+  },
+  {
+    "id": 13,
+    "category": "PHP",
+    "difficultyLevel": "Easy",
+    "questionTitle": "Which function is used to print a variable's value in PHP?",
+    "option1": "echo",
+    "option2": "print",
+    "option3": "var_dump",
+    "rightAnswer": "echo"
+  },
+  {
+    "id": 14,
+    "category": "PHP",
+    "difficultyLevel": "Medium",
+    "questionTitle": "What is the data type of a variable that stores a text string in PHP?",
+    "option1": "string",
+    "option2": "integer",
+    "option3": "boolean",
+    "rightAnswer": "string"
+  },
+  {
+    "id": 15,
+    "category": "PHP",
+    "difficultyLevel": "Hard",
+    "questionTitle": "How are form data submitted to a PHP script?",
+    "option1": "$_GET",
+    "option2": "$_POST",
+    "option3": "$_SESSION",
+    "rightAnswer": "$_GET and $_POST"
+  },
+  {
+    "id": 16,
+    "category": "Java",
+    "difficultyLevel": "Easy",
+    "questionTitle": "Who is developer of Java?",
+    "option1": "James Gosling",
+    "option2": "Ramey Shrestha",
+    "option3": "PK Frendrin",
+    "rightAnswer": "James Gosling"
+  }
+]
